@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Food landing page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+
+  <body>
+    <!-- Header starts here  -->
+    <header>
+      <!-- Responsive navigation bar -->
+      <nav class="navbar responsivenavbar badge text-bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-5" href="#">Hello Meals</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+          >
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-warning d-flex px-3 py-2 gap-2 me-5"
+                  type="submit"
+                >
+                  <img src="D:\DINESH OI\Task 1\user.svg" alt="user-image" /> <b>Login</b>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main header content -->
+      <div
+        class="container-fluid d-flex flex-wrap-reverse justify-content-between heading-main"
+      >
+        <div class="left-content ms-5">
+          <h1 class="margin-top142px mb-3">Look at your far food</h1>
+          <p class="mb-4">
+            Within the few clicks, find the food that is accessible near you
+          </p>
+          <form class="form-container container-fluid">
+            <div class="buttons d-flex gap-2 p-4 align-items-start">
+              <button type="button" class="bike-btn rounded-3">
+                <img src="D:\DINESH OI\Task 1\bike-icon.svg" alt="bike-icon" />&nbsp;Delivery
+              </button>
+              <button type="button" class="bag-btn rounded-3">
+                <img src="D:\DINESH OI\Task 1\bag-btn.svg" alt="bag-button" />
+              </button>
+            </div>
+
+            <div class="header-inputs d-flex p-4 align-items-start gap-2">
+              <img
+                src="D:\DINESH OI\Task 1\location-icon-babby-pink.svg"                alt="location-icon"
+                class="icon-pink-location"
+              />
+              <input
+                class="input-address rounded-3 align-items-center d-flex gap-2.5 p-3"
+                type="text"
+                value="      address"
+              />
+              <button
+                type="button"
+                class="search-btn rounded-3 d-flex gap-2 justify-content-center align-items-center"
+              >
+                <img src="D:\DINESH OI\Task 1\Search.svg" alt="search-icon-white" />Find
+                Food
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="right-image me-5">
+          <img src="D:\DINESH OI\Task 1\heading-foods.png" alt="heading-foods" class="img-fluid my-5" width="350" height="150"/>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content starts here -->
+    <main>
+      <!-- First section -->
+ 
+      <div class="card1-group d-flex flex-wrap gap-3 justify-content-center">
+        <div class="card1">
+          <img
+            src="D:\DINESH OI\Task 1\vada.png"
+            class="card-img-top img-fluid rounded-3"
+            alt="vada" width="250" height="150"
+          />
+
+        <div class="card-body">
+            <h5 class="card-title mt-4 mb-3">Vada</h5>
+            <button type="button" class="rounded-3 align-items-start">
+              30 min Delivery
+            </button>
+          </div>
+        <div class="card1">
+          <img
+            src="D:\DINESH OI\Task 1\idly.png"
+            class="card-img-top img-fluid rounded-3"
+            alt="Idly" width="250" height="150"
+          />
+
+        <div class="card-body">
+            <h5 class="card-title mt-4 mb-3">Idly</h5>
+            <button type="button" class="rounded-3 align-items-start">
+              30 min Delivery
+            </button>
+          </div>
+
+        <div class="card1">
+          <img
+            src="D:\DINESH OI\Task 1\dosa.png"
+            class="card-img-top img-fluid rounded-3"
+            alt="Idly" width="250" height="150"
+          />
+
+        <div class="card-body">
+            <h5 class="card-title mt-4 mb-3">Dosa</h5>
+            <button type="button" class="rounded-3 align-items-start">
+              30 min Delivery
+            </button>
+          </div>
+        </div>
+        <!-- Additional card examples -->
+        <!-- ... -->
+      </div>
+      <!-- More sections... -->
+    </main>
+
+    <!-- Footer starts here -->
+    <footer>
+      <div class="footer-coloum d-flex flex-column align-items-center">
+        <img src="D:\DINESH OI\Task 1\HR.svg" alt="HR-line" class="hr-first img-fluid" />
+        <div class="footer-two container-fluid d-flex flex-wrap">
+          <div class="footer-left d-flex flex-wrap">
+            <div class="company">
+              <h2 class="mb-5">Company</h2>
+              <p>About Us</p>
+              <p>Team</p>
+              <p>Careers</p>
+              <p>Blog</p>
+            </div>
+            <div class="Contact">
+              <h2 class="mb-5">Contact</h2>
+              <p>Help & Support</p>
+              <p>Partner with us</p>
+              <p>Ride with us</p>
+            </div>
+            <div class="legal">
+              <h2 class="mb-5">Legal</h2>
+              <p>Terms & Conditions</p>
+              <p>Refund & Cancellation</p>
+              <p>Privacy Policy</p>
+              <p>Cookie Policy</p>
+            </div>
+          </div>
+          <div class="footer-right">
+            <h2 class="mb-5">Follow us</h2>
+            <div class="social-icons mb-5">
+              <img src="D:\DINESH OI\Task 1\INSTAGRAM.png" alt="instagram-icon"  width="30" height="20"/>
+              <img src="D:\DINESH OI\Task 1\FACEBOOK.png" alt="instagram-icon"  width="30" height="20"/>
+              <img src="D:\DINESH OI\Task 1\TWITTER.png" alt="instagram-icon"  width="30" height="20"/>
+              <!-- Additional social icons -->
+            </div>
+            <h3 class="mb-5">Receive exclusive offers in your mailbox</h3>
+            <form class="d-flex flex-wrap flex-row gap-3">
+              <input
+                class="input-email"
+                placeholder="Enter Your email"
+                type="email"
+              />
+              <button class="footer-btn mb-5" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+          <img src="D:\DINESH OI\Task 1\HR.svg" alt="HR-line" class="img-fluid" />
+    
+
+        <div class="rights d-flex justify-content-between mb-5">
+          <p class="p1">All rights Reserved</p>
+          <p class="p2">Made with ❤️ by DineshTamatapu</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
